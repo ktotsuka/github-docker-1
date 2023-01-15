@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ktotsuka/github-docker-1
+        uses: ktotsuka/github-docker-1@HEAD
         with:
           who-to-greet: 'Toro Boy'
       # Use the output from the `hello` step
